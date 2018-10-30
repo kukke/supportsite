@@ -8,6 +8,7 @@ import { ProblemComponent } from './problem/problem.component';
 import { SolutionComponent } from './solution/solution.component';
 import { NavigationService } from './shared/navigation.service';
 import { ProblemListContainerComponent } from './problem/problem-list-container/problem-list-container.component';
+import { ProblemEditComponent } from './problem/problem-edit/problem-edit.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ProblemListContainerComponent } from './problem/problem-list-container/
     ProblemListComponent,
     ProblemComponent,
     SolutionComponent,
-    ProblemListContainerComponent
+    ProblemListContainerComponent,
+    ProblemEditComponent
   ],
   imports: [
     BrowserModule

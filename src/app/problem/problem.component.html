@@ -1,7 +1,7 @@
 <h3>
   {{ problem.getTitle() }}
 </h3>
-<div [ngSwitch]="problem.getRating()">
+<div [ngSwitch]="problem.getRelevance()">
   <div *ngSwitchCase="1">*0000</div>
   <div *ngSwitchCase="2">**000</div>
   <div *ngSwitchCase="3">***00</div>
